@@ -1,2 +1,2 @@
 # odin_project
-Progressing through The Odin Project
+Learning web development during my summer break.
