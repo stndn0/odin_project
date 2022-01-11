@@ -1,3 +1,5 @@
+<!-- 'href = hypertext reference'-->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,9 +11,19 @@
         <h1>Homepage</h1>
 
         <!-- Use anchor element to create a link -->
+        <!-- This is an absolute link (global link) -->
         <a href="https://www.theodinproject.com/about"> Click me! </a>
 
-        <a href="pages/about.html">About</a>
+        <!-- This is a relative link (local link) -->
+        <a href="./pages/about.html">About</a>
+
+        <!-- Lets add an external image (absolute link) -->
+        <img src="https://www.theodinproject.com/mstile-310x310.png">
+
+        <!-- Lets add an internal image (relative link) -->
+        <!-- Ensure you use alt text to help visually impaired users -->
+        <h1>Doge</h1>>
+        <img src="images/dog.jpg" alt="Photo of a dog in front of orange background">
 
     </body>
 </html>
