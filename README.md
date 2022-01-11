@@ -8,7 +8,7 @@ git status
 git add .
 - add all files
 
-git commit -m <message>
+git commit -m MESSAGE
 - commit with a message
 
 git log
@@ -16,4 +16,4 @@ git log
 
 ## misc terminal cheatsheet
 ### Move file to directory
-mv <filename> <dir>
+mv FILENAME DIR
