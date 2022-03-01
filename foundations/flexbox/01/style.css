@@ -1,0 +1,13 @@
+.flex-container {
+    /* Comment to see what happens */
+    display: flex;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    /* Comment to see what happens */
+    flex: 1;
+  }
